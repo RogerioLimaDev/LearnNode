@@ -1,5 +1,5 @@
 import { MongoClient } from "mongodb";
-const connectionString = 'mongodb+srv://limadev:1234@alura.gbebxk0.mongodb.net/?retryWrites=true&w=majority';
+const connectionString = '';
 const client = new MongoClient(connectionString);
 
 let mensagens;
